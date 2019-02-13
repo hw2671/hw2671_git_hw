@@ -43,7 +43,7 @@ for task one and task two:
 
 for bonus:
 
-1. all the data we need can be extracted as a dataframe and thus we don't need to save lots of production data.
+1. All the data we need can be extracted as a dataframe and thus we don't need to save lots of production data.
 
 
 
