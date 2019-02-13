@@ -29,6 +29,8 @@ a brief introdution for how I solved the task one and task two in the assessment
 
 ### structure_of_data
 -----------
+for task one and task two:
+
 1. Data is in json format
 
 2. The data in json has key in:
@@ -39,24 +41,37 @@ a brief introdution for how I solved the task one and task two in the assessment
 
 4. The number of data equals to the up-to-data searching result in the well website, which is decided by the exact time and date
 
+for bonus:
+
+1. all the data we need can be extracted as a dataframe and thus we don't need to save lots of production data.
+
 
 
 
 ### challenges
 -----------
+for task one and task two:
+
 1. When I clicked search in the well website, the URL didn't change, which was different from the traditional way of scrambling.
 
 2. When I tried to scrambling URLS for dynamic data, I looked at the network in inspect of the website, the Request URL couldn't open.
 
-3. When I downloaded the production data for all wells, I had to do it seperately and thus I had nearly 200k files. 
+for bonus:
+
+1. When I downloaded the production data for all wells, I had to do it seperately and thus I had nearly 200k files. 
 It was hard to do the following analysis in this amount of files.
 
 ### overcome
 -----------
+for task one and task two:
+
 1. For challenge 1, I used the method of srambling website for dynamic data. (although it failed)
 
 2. For challenge 2, I found there was a link for download excel containing all the data.
 I used Request to download it and converted the excel into `JSON` format data.
 
-3. I used `pandas` and organized these files in `Dataframe`. `Dataframe` is efficient when dealing with data and it looks well-organized in format.
+
+for bonus:
+
+1. I used `pandas` and organized these files in `Dataframe`. `Dataframe` is efficient when dealing with data and it looks well-organized in format.
 
