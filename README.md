@@ -56,7 +56,7 @@ It was hard to do the following analysis in this amount of files.
 1. For challenge 1, I used the method of srambling website for dynamic data. (although it failed)
 
 2. For challenge 2, I found there was a link for download excel containing all the data.
-I used Request to download it and converted the excel into JSON format data.
+I used Request to download it and converted the excel into `JSON` format data.
 
 3. I used `pandas` and organized these files in `Dataframe`. `Dataframe` is efficient when dealing with data and it looks well-organized in format.
 
